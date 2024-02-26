@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.12.5",
+    "@cap-js/graphql": "^0.10.0",
     "@sap/cds": "^7",
     "express": "^4"
   },
@@ -17,10 +18,10 @@
   "scripts": {
     "start": "cds-serve"
   },
-  "cds" : {
-    "cov2ap" : {
-      "plugin" : true,
+  "cds": {
+    "cov2ap": {
+      "plugin": true,
       "path": "devchallenge/v2"
-      }
     }
+  }
 }
